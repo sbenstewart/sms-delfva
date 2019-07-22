@@ -18,13 +18,15 @@ Finally, sms-delfva checks for the voterID in the list for that constituency and
 # making sms-delfva a reality
 To use sms-delfva for the general elections we will have a tough proces to implement. It has to be done almost like an election on a single day with the blue ink blots to prevent people from linking their counterfeit voterIDs with fake phone numbers. Once this logistical nightmare is done with, all that remains is an SMS notification about what has to be done by the voters.
 # advantages
-1. No logistical nightmares to get the voting booths and machines.
+1. No logistical nightmares to transport the machines to the voting booths.
 2. All people have access to mobile phones.
 3. No internet connectivity needed.
 4. Can be done for all types of elections.
 5. Easy to make changes.
 # security
-We could bring the later security changes with much ease as it would be as simple as to add an extra parameter to the SMS message. But this all would heavily rely on the success of the linking of the voterIDs with the mobile numbers. With this one to one mapping secure, this method would be more difficult to break.
+We could bring the later security changes with much ease as it would be as simple as to add an extra parameter like an OTP being sent to the mail id that will be attached to the SMS message.<br>
+`VOTE <VOTERID> <OTP#> <CANDIDATE#>`<br>
+But this all would heavily rely on the success of the linking of the voterIDs with the mobile numbers. With this one to one mapping secure, this method would be more difficult to break.
 # implementation
 We would get into the details here in a moment but for having the critical data of the voter list, candidate list and the votes bank we are using the Azure blockchain.
 # contributions
