@@ -1,6 +1,6 @@
 pragma solidity >=0.4.25 <0.6.0;
 
-contract HelloBlockchain
+contract smsdelfva
 {
      //Set of States
     enum StateType { Request, Respond}

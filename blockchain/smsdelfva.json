@@ -1,7 +1,7 @@
 {
-    "ApplicationName": "HelloBlockchain",
-    "DisplayName": "Hello, Blockchain!",
-    "Description": "A simple application to send request and get response",
+    "ApplicationName": "smsdelfva",
+    "DisplayName": "smsdelfva",
+    "Description": "SMS to save Democracy through an ELection using Fair Voting",
     "ApplicationRoles": [
       {
         "Name": "Requestor",
@@ -14,7 +14,7 @@
     ],
     "Workflows": [
       {
-        "Name": "HelloBlockchain",
+        "Name": "smsdelfva",
         "DisplayName": "Request Response",
         "Description": "A simple workflow to send a request and receive a response.",
         "Initiators": [ "Requestor" ],
