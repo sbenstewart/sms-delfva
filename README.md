@@ -16,7 +16,7 @@ Then the result will be the list of candidates with the parties that they stand 
 The CANDIDATE# number being the number in which the candidate was listed in the above list.<br>
 Finally, sms-delfva checks for the voterID in the list for that constituency and if the candidate is valid and then process the vote and sends a success or failure SMS back.
 # making sms-delfva a reality
-To use sms-delfva for the general elections we will have a tough proces to implement. It has to be done almost like an election on a single day with the blue ink blots to prevent people from linking their counterfeit voterIDs with fake phone numbers. Once this logistical nightmare is done with, all that remains is an SMS notification about what has to be done by the voters.
+To use sms-delfva for the general elections we will have a tough process to implement. It has to be done almost like an election on a single day with the blue ink blots to prevent people from linking their counterfeit voterIDs with fake phone numbers. Once this logistical nightmare is done with, all that remains is an SMS notification about what has to be done by the voters.
 # advantages
 1. No logistical nightmares to transport the machines to the voting booths.
 2. All people have access to mobile phones.
