@@ -1,4 +1,6 @@
 # sms-delfva
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a8018681-7eb5-4028-9eb7-daa956eba711/deploy-status)](https://app.netlify.com/sites/sms-delfva/deploys)
+<br>
 SMS to save Democracy through an ELection using a Fair Voting Approach. This product is designed not be just one among those online applications for voting and elections, but a real game changer in developing countries,the one that does not require an internet connection. 
 # why sms-delfva?
 Even though we implement a block chain based application for the voting process, the major bottleneck in India would be that all the people would require an internet connectivity. We planned to fix that issue. The strategy is that the voters can use their mobile phones to vote using the SMS service.
